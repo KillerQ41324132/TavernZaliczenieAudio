@@ -53,7 +53,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 15
+  MaxDistance: 20
   Length: 0
 --- !u!114 &-6416188545706814204
 MonoBehaviour:
@@ -70,10 +70,10 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639039189180061837
+  lastModified: 639039241320780135
   FileSizes:
   - Name: Desktop
-    Value: 6929376
+    Value: 6930592
   Exists: 1
 --- !u!114 &-5913011397240495182
 MonoBehaviour:
@@ -319,7 +319,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 3936098375140774317}
   cacheVersion: 131857
-  cacheTime: 639039189180061837
+  cacheTime: 639039241320790181
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_forest
     index: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639039189180061837
+  lastModified: 639039241320790181
   FileSizes:
   - Name: Desktop
     Value: 1924

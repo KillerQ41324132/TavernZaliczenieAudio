@@ -21,9 +21,27 @@
 		<relationship name="effects">
 			<destination>{7987207e-064e-4458-8bba-8486e11e1f6b}</destination>
 			<destination>{e6114d06-a8de-490b-83d9-e3a3094f7b88}</destination>
+			<destination>{e15e5eae-819b-45ea-964d-1d4d4799a521}</destination>
+			<destination>{3944c2b3-535a-4242-93ae-88ce7447d73f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{58190334-c042-4842-9060-1f8972a7ff76}" />
 	<object class="MixerBusFader" id="{7987207e-064e-4458-8bba-8486e11e1f6b}" />
-	<object class="MultibandEqEffect" id="{e6114d06-a8de-490b-83d9-e3a3094f7b88}" />
+	<object class="MultibandEqEffect" id="{e6114d06-a8de-490b-83d9-e3a3094f7b88}">
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="qualityA">
+			<value>1.86624134</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{e15e5eae-819b-45ea-964d-1d4d4799a521}">
+		<property name="midGain">
+			<value>-2.5</value>
+		</property>
+		<property name="highGain">
+			<value>-8.5</value>
+		</property>
+	</object>
+	<object class="LowpassSimpleEffect" id="{3944c2b3-535a-4242-93ae-88ce7447d73f}" />
 </objects>
