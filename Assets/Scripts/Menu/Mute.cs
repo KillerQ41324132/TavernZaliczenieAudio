@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Menu : MonoBehaviour
+public class Mute : MonoBehaviour
 
 {
     private FMOD.Studio.VCA vca;
@@ -11,13 +11,7 @@ public class Menu : MonoBehaviour
 
     void Start()
     {
-        vca = FMODUnity.RuntimeManager.GetVCA("vca:/Music");
-        vca.getVolume(out vcaVolume);
         vca = FMODUnity.RuntimeManager.GetVCA("vca:/Mute");
-        vca.getVolume(out vcaVolume);
-        vca = FMODUnity.RuntimeManager.GetVCA("vca:/Outside");
-        vca.getVolume(out vcaVolume);
-        vca = FMODUnity.RuntimeManager.GetVCA("vca:/Tavern");
         vca.getVolume(out vcaVolume);
     }
 

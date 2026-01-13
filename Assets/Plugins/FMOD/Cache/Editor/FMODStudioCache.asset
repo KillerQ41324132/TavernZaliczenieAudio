@@ -70,7 +70,7 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639038520637432409
+  lastModified: 639039189180061837
   FileSizes:
   - Name: Desktop
     Value: 6929376
@@ -319,7 +319,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 3936098375140774317}
   cacheVersion: 131857
-  cacheTime: 639038520637437458
+  cacheTime: 639039189180061837
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_forest
     index: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639038520637437458
+  lastModified: 639039189180061837
   FileSizes:
   - Name: Desktop
     Value: 1924

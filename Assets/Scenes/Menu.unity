@@ -376,7 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352391716}
   - component: {fileID: 352391718}
-  - component: {fileID: 352391717}
+  - component: {fileID: 352391719}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -406,19 +406,6 @@ RectTransform:
   m_AnchoredPosition: {x: -18, y: -41}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &352391717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352391715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d126282a8e3cf0489c0cc01018541e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vcaVolume: 0
 --- !u!114 &352391718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,8 +457,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 352391717}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+      - m_Target: {fileID: 352391719}
+        m_TargetAssemblyTypeName: Mute, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -482,6 +469,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &352391719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352391715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e80b32d31d5754da0a7ac75f13af10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vcaVolume: 0
 --- !u!1 &376249795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +1529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422990636}
   - component: {fileID: 1422990638}
-  - component: {fileID: 1422990637}
+  - component: {fileID: 1422990639}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1559,19 +1559,6 @@ RectTransform:
   m_AnchoredPosition: {x: -18, y: -41}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1422990637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422990635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d126282a8e3cf0489c0cc01018541e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vcaVolume: 0
 --- !u!114 &1422990638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,8 +1610,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1422990637}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+      - m_Target: {fileID: 1422990639}
+        m_TargetAssemblyTypeName: Tavern, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -1635,6 +1622,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1422990639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422990635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6586cd82678b21a49be3372873828f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vcaVolume: 0
 --- !u!1 &1437473956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,7 +2575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109137563}
   - component: {fileID: 2109137565}
-  - component: {fileID: 2109137564}
+  - component: {fileID: 2109137566}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -2605,19 +2605,6 @@ RectTransform:
   m_AnchoredPosition: {x: -18, y: -41}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2109137564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109137562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d126282a8e3cf0489c0cc01018541e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vcaVolume: 0
 --- !u!114 &2109137565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2669,8 +2656,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2109137564}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+      - m_Target: {fileID: 2109137566}
+        m_TargetAssemblyTypeName: Outside, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -2681,6 +2668,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2109137566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109137562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a05b2438b2f4334699fc6b42f56f487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vcaVolume: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
