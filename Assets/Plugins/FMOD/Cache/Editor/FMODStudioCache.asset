@@ -70,10 +70,10 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639039241320780135
+  lastModified: 639054776545176300
   FileSizes:
   - Name: Desktop
-    Value: 6930592
+    Value: 6980160
   Exists: 1
 --- !u!114 &-5913011397240495182
 MonoBehaviour:
@@ -260,6 +260,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-1607975053208334470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/sfx_player_health
+  m_EditorClassIdentifier: 
+  Path: event:/Player/sfx_player_health
+  Guid:
+    Data1: 354489283
+    Data2: 1159292954
+    Data3: 88987289
+    Data4: 1068610257
+  Banks:
+  - {fileID: -6416188545706814204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6730
 --- !u!114 &-846784071622079134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,13 +340,15 @@ MonoBehaviour:
   - {fileID: 4439132187988323051}
   - {fileID: -2989604496582120762}
   - {fileID: 7836474485286059127}
+  - {fileID: 2694050742068050380}
+  - {fileID: -1607975053208334470}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6416188545706814204}
   StringsBanks:
   - {fileID: 3936098375140774317}
   cacheVersion: 131857
-  cacheTime: 639039241320790181
+  cacheTime: 639054776545187649
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_forest
     index: 0
@@ -341,6 +370,37 @@ MonoBehaviour:
     index: 8
   - key: snapshot:/Outside
     index: 9
+  - key: snapshot:/Health
+    index: 10
+  - key: event:/Player/sfx_player_health
+    index: 11
+--- !u!114 &2694050742068050380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Health
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Health
+  Guid:
+    Data1: -621852555
+    Data2: 1298136108
+    Data3: -956688480
+    Data4: -938393648
+  Banks:
+  - {fileID: -6416188545706814204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3481841031238682141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,10 +443,10 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639039241320790181
+  lastModified: 639054776545187649
   FileSizes:
   - Name: Desktop
-    Value: 1924
+    Value: 2034
   Exists: 1
 --- !u!114 &4439132187988323051
 MonoBehaviour:

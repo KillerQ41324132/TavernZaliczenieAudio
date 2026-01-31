@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4793d9c2-291d-4bf2-b36b-704f126aaefb}">
+		<property name="assetPath">
+			<value>Dźwięk w grach - sample (extra)/Heartbeat_Loop.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>6.7307708333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ebf845eb-ebc2-4cb0-abfd-5be8e7d3d9b2}</destination>
+		</relationship>
+	</object>
+</objects>
