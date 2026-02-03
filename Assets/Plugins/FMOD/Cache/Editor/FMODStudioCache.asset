@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7999415793153855750
+--- !u!114 &-8136121985625684986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19,16 +19,16 @@ MonoBehaviour:
     Data3: -2045005893
     Data4: -1699819011
   Banks:
-  - {fileID: -6416188545706814204}
+  - {fileID: 8391604214713901190}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -2140027872131412583}
+  - {fileID: -6078730932774668768}
   MinDistance: 1
   MaxDistance: 20
   Length: 324
---- !u!114 &-7417693849654870147
+--- !u!114 &-7977363095396148692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38,96 +38,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambient/sfx_ambient_tavern
+  m_Name: event:/Player/sfx_player_health
   m_EditorClassIdentifier: 
-  Path: event:/Ambient/sfx_ambient_tavern
+  Path: event:/Player/sfx_player_health
   Guid:
-    Data1: 1144182915
-    Data2: 1201835416
-    Data3: 101299363
-    Data4: -1881936657
+    Data1: 354489283
+    Data2: 1159292954
+    Data3: 88987289
+    Data4: 1068610257
   Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 1
-  Is3D: 1
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &-6416188545706814204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Audio/Tavern1/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 639054776545176300
-  FileSizes:
-  - Name: Desktop
-    Value: 6980160
-  Exists: 1
---- !u!114 &-5913011397240495182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/sfx_tavern_doors/Door_State
-  m_EditorClassIdentifier: 
-  Name: Door_State
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1131537683
-    data2: 1579362771
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Open
-  - Close
-  Exists: 1
---- !u!114 &-4531611701077733741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/sfx_player_land/Footstep_Surface
-  m_EditorClassIdentifier: 
-  Name: Footstep_Surface
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3916306688
-    data2: 3264211297
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Stone
-  - Wood
-  Exists: 1
---- !u!114 &-3919449303395371901
+  Length: 6730
+--- !u!114 &-7932886800257199071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,104 +65,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Interaction/sfx_tavern_doors
+  m_Name: event:/Interaction/sfx_tavern_knife
   m_EditorClassIdentifier: 
-  Path: event:/Interaction/sfx_tavern_doors
+  Path: event:/Interaction/sfx_tavern_knife
   Guid:
-    Data1: -1602195595
-    Data2: 1221585503
-    Data3: 464686251
-    Data4: -767271228
+    Data1: -1308192529
+    Data2: 1297582466
+    Data3: 2095543963
+    Data4: 35051323
   Banks:
-  - {fileID: -6416188545706814204}
+  - {fileID: 8391604214713901190}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters:
-  - {fileID: -5913011397240495182}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1200
---- !u!114 &-3867442844163291753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/mfx_tavern_music
-  m_EditorClassIdentifier: 
-  Path: event:/Music/mfx_tavern_music
-  Guid:
-    Data1: -1829138345
-    Data2: 1154823655
-    Data3: 1594594443
-    Data4: -1763046295
-  Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 22
-  Length: 77538
---- !u!114 &-2989604496582120762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/sfx_player_land
-  m_EditorClassIdentifier: 
-  Path: event:/Player/sfx_player_land
-  Guid:
-    Data1: 844872678
-    Data2: 1087538512
-    Data3: 1528277417
-    Data4: 734393662
-  Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -4531611701077733741}
-  MinDistance: 1
   MaxDistance: 20
-  Length: 806
---- !u!114 &-2655546827503911040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/sfx_tavern_fireplace/Fire
-  m_EditorClassIdentifier: 
-  Name: Fire
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1865452376
-    data2: 3130029192
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-2140027872131412583
+  Length: 2000
+--- !u!114 &-6078730932774668768
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,121 +108,7 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
---- !u!114 &-1607975053208334470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/sfx_player_health
-  m_EditorClassIdentifier: 
-  Path: event:/Player/sfx_player_health
-  Guid:
-    Data1: 354489283
-    Data2: 1159292954
-    Data3: 88987289
-    Data4: 1068610257
-  Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6730
---- !u!114 &-846784071622079134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambient/sfx_ambient_forest
-  m_EditorClassIdentifier: 
-  Path: event:/Ambient/sfx_ambient_forest
-  Guid:
-    Data1: 2130698022
-    Data2: 1259441774
-    Data3: -759634758
-    Data4: 81500829
-  Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 51000
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 3936098375140774317}
-  - {fileID: -6416188545706814204}
-  EditorEvents:
-  - {fileID: -846784071622079134}
-  - {fileID: 9188574662760159142}
-  - {fileID: -3867442844163291753}
-  - {fileID: -3919449303395371901}
-  - {fileID: -7999415793153855750}
-  - {fileID: -7417693849654870147}
-  - {fileID: 3481841031238682141}
-  - {fileID: 4439132187988323051}
-  - {fileID: -2989604496582120762}
-  - {fileID: 7836474485286059127}
-  - {fileID: 2694050742068050380}
-  - {fileID: -1607975053208334470}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -6416188545706814204}
-  StringsBanks:
-  - {fileID: 3936098375140774317}
-  cacheVersion: 131857
-  cacheTime: 639054776545187649
-  SerializableEventsDict:
-  - key: event:/Ambient/sfx_ambient_forest
-    index: 0
-  - key: event:/Interaction/sfx_tavern_fireplace
-    index: 1
-  - key: event:/Music/mfx_tavern_music
-    index: 2
-  - key: event:/Interaction/sfx_tavern_doors
-    index: 3
-  - key: event:/Player/sfx_player_footsteps
-    index: 4
-  - key: event:/Ambient/sfx_ambient_tavern
-    index: 5
-  - key: snapshot:/Inside_Room
-    index: 6
-  - key: event:/Player/sfx_player_jump
-    index: 7
-  - key: event:/Player/sfx_player_land
-    index: 8
-  - key: snapshot:/Outside
-    index: 9
-  - key: snapshot:/Health
-    index: 10
-  - key: event:/Player/sfx_player_health
-    index: 11
---- !u!114 &2694050742068050380
+--- !u!114 &-5989160726567012499
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,7 +127,7 @@ MonoBehaviour:
     Data3: -956688480
     Data4: -938393648
   Banks:
-  - {fileID: -6416188545706814204}
+  - {fileID: 8391604214713901190}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -401,34 +135,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &3481841031238682141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Inside_Room
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Inside_Room
-  Guid:
-    Data1: 1281440202
-    Data2: 1112639055
-    Data3: 1495319176
-    Data4: -1752198037
-  Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &3936098375140774317
+--- !u!114 &-5640434728209708838
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,40 +150,12 @@ MonoBehaviour:
   Path: Assets/Audio/Tavern1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639054776545187649
+  lastModified: 639057394454276354
   FileSizes:
   - Name: Desktop
-    Value: 2034
+    Value: 2258
   Exists: 1
---- !u!114 &4439132187988323051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/sfx_player_jump
-  m_EditorClassIdentifier: 
-  Path: event:/Player/sfx_player_jump
-  Guid:
-    Data1: 1394418134
-    Data2: 1205365453
-    Data3: 994334395
-    Data4: -857724534
-  Banks:
-  - {fileID: -6416188545706814204}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 6696633139455334306}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 501
---- !u!114 &6696633139455334306
+--- !u!114 &-5405635380221631213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -502,7 +181,35 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
---- !u!114 &7836474485286059127
+--- !u!114 &-4701471722646182255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_doors
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_doors
+  Guid:
+    Data1: -1602195595
+    Data2: 1221585503
+    Data3: 464686251
+    Data4: -767271228
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5469356021938600108}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &-4540009391184067449
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -521,7 +228,7 @@ MonoBehaviour:
     Data3: -954479955
     Data4: -1542192107
   Banks:
-  - {fileID: -6416188545706814204}
+  - {fileID: 8391604214713901190}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -529,7 +236,268 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &9188574662760159142
+--- !u!114 &-4182685668032420729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_tavern_fireplace/Fire
+  m_EditorClassIdentifier: 
+  Name: Fire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1865452376
+    data2: 3130029192
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4140880740938351330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_land/Footstep_Surface
+  m_EditorClassIdentifier: 
+  Name: Footstep_Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3916306688
+    data2: 3264211297
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
+--- !u!114 &-4114330179472224750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/sfx_ambient_forest
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/sfx_ambient_forest
+  Guid:
+    Data1: 2130698022
+    Data2: 1259441774
+    Data3: -759634758
+    Data4: 81500829
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51000
+--- !u!114 &-3447911364914498321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_glass_handling
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_glass_handling
+  Guid:
+    Data1: -1661215647
+    Data2: 1090742722
+    Data3: -2124368475
+    Data4: 1614524257
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-1265398133125893107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_fireplace_on
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_fireplace_on
+  Guid:
+    Data1: 602665494
+    Data2: 1143080496
+    Data3: -1735919222
+    Data4: 1595841955
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-793696313711389509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/sfx_player_land
+  m_EditorClassIdentifier: 
+  Path: event:/Player/sfx_player_land
+  Guid:
+    Data1: 844872678
+    Data2: 1087538512
+    Data3: 1528277417
+    Data4: 734393662
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4140880740938351330}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 806
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -5640434728209708838}
+  - {fileID: 8391604214713901190}
+  EditorEvents:
+  - {fileID: -1265398133125893107}
+  - {fileID: -4114330179472224750}
+  - {fileID: 2675803477762604104}
+  - {fileID: 3246589262326147552}
+  - {fileID: 1046132607297433298}
+  - {fileID: -3447911364914498321}
+  - {fileID: -5989160726567012499}
+  - {fileID: -4701471722646182255}
+  - {fileID: -8136121985625684986}
+  - {fileID: 6829921869491454674}
+  - {fileID: -7977363095396148692}
+  - {fileID: 6516066297446294464}
+  - {fileID: 2871729706650414918}
+  - {fileID: -793696313711389509}
+  - {fileID: -4540009391184067449}
+  - {fileID: -7932886800257199071}
+  - {fileID: 8839531893829640859}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 8391604214713901190}
+  StringsBanks:
+  - {fileID: -5640434728209708838}
+  cacheVersion: 131856
+  cacheTime: 639057394454276354
+  SerializableEventsDict:
+  - key: event:/Interaction/sfx_tavern_fireplace_on
+    index: 0
+  - key: event:/Ambient/sfx_ambient_forest
+    index: 1
+  - key: event:/Interaction/sfx_tavern_fireplace
+    index: 2
+  - key: event:/Music/mfx_tavern_music
+    index: 3
+  - key: event:/Interaction/sfx_tavern_barrel
+    index: 4
+  - key: event:/Interaction/sfx_tavern_glass_handling
+    index: 5
+  - key: snapshot:/Health
+    index: 6
+  - key: event:/Interaction/sfx_tavern_doors
+    index: 7
+  - key: event:/Player/sfx_player_footsteps
+    index: 8
+  - key: event:/Ambient/sfx_ambient_tavern
+    index: 9
+  - key: event:/Player/sfx_player_health
+    index: 10
+  - key: snapshot:/Inside_Room
+    index: 11
+  - key: event:/Player/sfx_player_jump
+    index: 12
+  - key: event:/Player/sfx_player_land
+    index: 13
+  - key: snapshot:/Outside
+    index: 14
+  - key: event:/Interaction/sfx_tavern_knife
+    index: 15
+  - key: event:/Interaction/sfx_tavern_fireplace_off
+    index: 16
+--- !u!114 &1046132607297433298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_barrel
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_barrel
+  Guid:
+    Data1: 215601240
+    Data2: 1192488141
+    Data3: -1191052877
+    Data4: -1831608893
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &2675803477762604104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -548,12 +516,194 @@ MonoBehaviour:
     Data3: -1639992388
     Data4: 1874884416
   Banks:
-  - {fileID: -6416188545706814204}
+  - {fileID: 8391604214713901190}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -2655546827503911040}
+  - {fileID: -4182685668032420729}
   MinDistance: 1
   MaxDistance: 5
   Length: 30000
+--- !u!114 &2871729706650414918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/sfx_player_jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player/sfx_player_jump
+  Guid:
+    Data1: 1394418134
+    Data2: 1205365453
+    Data3: 994334395
+    Data4: -857724534
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5405635380221631213}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 501
+--- !u!114 &3246589262326147552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mfx_tavern_music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mfx_tavern_music
+  Guid:
+    Data1: -1829138345
+    Data2: 1154823655
+    Data3: 1594594443
+    Data4: -1763046295
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 22
+  Length: 77538
+--- !u!114 &5469356021938600108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_tavern_doors/Door_State
+  m_EditorClassIdentifier: 
+  Name: Door_State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1131537683
+    data2: 1579362771
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Open
+  - Close
+  Exists: 1
+--- !u!114 &6516066297446294464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside_Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Inside_Room
+  Guid:
+    Data1: 1281440202
+    Data2: 1112639055
+    Data3: 1495319176
+    Data4: -1752198037
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6829921869491454674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/sfx_ambient_tavern
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/sfx_ambient_tavern
+  Guid:
+    Data1: 1144182915
+    Data2: 1201835416
+    Data3: 101299363
+    Data4: -1881936657
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8391604214713901190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Tavern1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639057394454251338
+  FileSizes:
+  - Name: Desktop
+    Value: 7301088
+  Exists: 1
+--- !u!114 &8839531893829640859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_fireplace_off
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_fireplace_off
+  Guid:
+    Data1: 1332066557
+    Data2: 1315890608
+    Data3: -1707645273
+    Data4: 591883979
+  Banks:
+  - {fileID: 8391604214713901190}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
